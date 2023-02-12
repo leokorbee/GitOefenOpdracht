@@ -14,7 +14,7 @@ Dit is de oefenopdracht:
     CMD: 
     
     ```
-    rmdir .git**
+    rmdir .git
     ```
 
     unix: 
