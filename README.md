@@ -5,12 +5,23 @@ Dit is de oefenopdracht:
    
     2. verwijder de .git directory
 
-    Powershell: **Remove-Item '.git' -Recurse**
+    Powershell (PS):
     
-    CMD: **rmdir .git**
+    ```
+    Remove-Item '.git' -Recurse
+    ```
+
+    CMD: 
     
-    unix: **rm -rf .git**
+    ```
+    rmdir .git**
+    ```
+
+    unix: 
     
+    ```
+    rm -rf .git
+    ```
 
     3. maak een nieuwe lokale repository
     
