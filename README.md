@@ -1,18 +1,18 @@
 # Oefenproject Git Deployment
 Dit is de oefenopdracht:
  
-    1. Clone deze naar je locale machine.
+    1. Clone deze naar je locale machine
    
     2. verwijder de .git directory
 
-    Powershell: ```Remove-Item '.git' -Recurse```
+    Powershell: **Remove-Item '.git' -Recurse**
     
-    CMD: ```rmdir .git```
+    CMD: **rmdir .git**
     
-    unix: ```rm -rf .git```
+    unix: **rm -rf .git**
     
 
-    3. maak een nieuwe lokale repository<br>
+    3. maak een nieuwe lokale repository
     
     4. Pas het project aan en maak een aantal commits:
     - Zet er een ander plaatje in!
@@ -23,6 +23,3 @@ Dit is de oefenopdracht:
     5. Zorg dat dit project via een private github repository naar je linux machine wordt gedeployed.
     
     6. Laat de docent de website zien draaien vanaf je lokale unix machine.
-    
-
-
