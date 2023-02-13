@@ -10,8 +10,8 @@ Dit is de oefenopdracht:
 Powershell (PS):
 
 ```
-Remove-Item '.git' -Recurse
-dir -Force
+rm .git -r -force
+dir -force
 ```
 
 CMD: 
