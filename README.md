@@ -1,28 +1,31 @@
 # Oefenproject Git Deployment
 Dit is de oefenopdracht:
  
-1. Clone dit project naar je locale machine
+1. Clone dit project naar je locale developer machine (Windows of Mac)
    
-2. Open met VSCode of andere IDE
+2. Open het project met VSCode of andere IDE
 
-3. verwijder de .git directory
+3. verwijder de .git directory en check of hij ook weg is (2e commando)
 
 Powershell (PS):
 
 ```
 Remove-Item '.git' -Recurse
+dir -Force
 ```
 
 CMD: 
     
 ```
-rmdir .git
+rmdir /s .git
+dir /a
 ```
 
 unix: 
     
 ```
 rm -rf .git
+ls -la
 ```
 
 4. maak een nieuwe lokale repository
